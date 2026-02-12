@@ -1,0 +1,16 @@
+body {
+    background-color: brown;
+}
+
+.ex1{
+    background-color: black;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 100px 20px 10px;
+    
+    /*padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 10px;*/
+
+}
