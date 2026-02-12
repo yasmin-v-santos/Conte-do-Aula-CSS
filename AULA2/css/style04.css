@@ -1,0 +1,17 @@
+body {
+    background-color: hotpink;
+    justify-items: center;
+}
+
+.el1{
+    background-color: lightcoral;
+    width: 500px;
+
+}
+
+.ex1{
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color:darkorchid;
+}
