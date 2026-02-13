@@ -1,0 +1,19 @@
+body {
+  background-color: dimgrey;
+}
+
+.ex1 {
+  width: 400px;
+  height:300px;
+  background-color: blueviolet;
+}
+
+.div1 {
+    width: 680px;
+    background-color: deeppink;
+}
+
+.ex2 {
+    max-width: 680px;
+    background-color: limegreen;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    background-color: blanchedalmond;
+}
+
+.ex1 {
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.ex2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif
+}
+
+.ex3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ex4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.ex5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.ex6{
+    font-family:'Times New Roman', Times, serif
+}
+
+.ex7{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ex8{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.ex9{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.ex10{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.ex11{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ex12{
+    font-family: Verdana, Geneva, Tahoma
+    , sans-serif;
+}
+
+.ex-google-fonte {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}

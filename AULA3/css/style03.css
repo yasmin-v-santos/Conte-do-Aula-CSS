@@ -1,0 +1,21 @@
+body {
+    background-color: mediumorchid;
+}
+
+.ex1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: darkblue;
+}
+
+.ex2 {
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: aliceblue;
+}
+
+.ex3 {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: hotpink;
+}
