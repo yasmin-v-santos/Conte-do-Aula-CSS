@@ -1,0 +1,125 @@
+body {
+  background-color: #f1f1f1;
+}
+
+/* Exemplo flex-direction: row */
+.ex1 {
+  display: flex;
+  flex-direction: row;
+  background-color: coral;
+  gap: 10px;
+}
+
+.ex1 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Exemplo flex-direction: column */
+.ex2 {
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+  gap: 10px;
+}
+
+.ex2 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Exemplo flex-direction: row-reverse */
+.ex3 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: coral;
+  gap: 10px;
+}
+
+.ex3 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Exemplo flex-direction: column-reverse */
+.ex4 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: coral;
+  gap: 10px;
+}
+
+.ex4 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Exemplo flex-wrap: nowrap */
+.ex5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color:blueviolet;
+  gap: 10px;
+}
+
+.ex5 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Exemplo flex-wrap: wrap */
+.ex6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:brown;
+  gap: 10px;
+}
+
+.ex6 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Exemplo flex-wrap: wrap-reverse */
+.ex7 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  background-color:brown;
+  gap: 10px;
+}
+
+.ex7 div {
+  background-color: rgb(86, 78, 69);
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
