@@ -1,0 +1,124 @@
+body {
+    background-color: oklch(lightness chroma hue);
+    color: #fff;
+}
+
+/*Exemplos de align-items: center */
+.ex1 {
+    display: flex;
+    background-color: lightsteelblue;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
+
+/*Exemplos de align-items: flex-start */
+.ex2 {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: lightsteelblue;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
+
+/*Exemplos de align-items: flex-end */
+.ex3 {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: lightsteelblue;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
+
+/*Exemplos de align-items: stretch */
+.ex4 {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: lightsteelblue;
+}
+
+.ex4 div {
+    width: 100px;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
+
+/*Exemplos de align-items: stretch */
+.ex5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+    gap: 30px;
+    background-color: lightsteelblue;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
+
+/*Exemplos de align-items: space-between */
+.ex6 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: space-between;
+    gap: 30px;
+    background-color:mediumvioletred
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
+
+/*Exemplos de align-items: center e justify-content: center */
+.ex7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:mediumvioletred
+}
+
+.ex7 div {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: olive;
+    color: orangered;
+}
