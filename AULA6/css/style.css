@@ -1,0 +1,103 @@
+body {
+  background-color: darkslateblue;
+}
+
+/* Exemplo de flex items - order */
+.ex1 {
+  display: flex;
+  gap: 30px;
+  background-color: orchid;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  background-color: rosybrown;
+}
+
+/* Exemplo de flex-grow */
+.ex2 {
+  display: flex;
+  gap: 30px;
+  background-color: orchid;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  background-color: rosybrown;
+}
+
+/* Exemplo de flex-shrink */
+.ex3 {
+  display: flex;
+  gap: 30px;
+  background-color: orchid;
+}
+
+.ex3 div {
+  width: 150px;
+  height: 100px;
+  background-color: rosybrown;
+}
+
+/* Exemplo de flex-basis */
+.ex4 {
+  display: flex;
+  gap: 30px;
+  background-color: orchid;
+}
+
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  background-color: rosybrown;
+}
+
+/* Exemplo de align-self:center*/
+.ex5 {
+  display: flex;
+    height:200px;
+    gap: 30px;
+  background-color: orchid;
+}
+
+.ex5 div {
+  width: 100px;
+  background-color: rosybrown;
+}
+
+.ex5 #it3{
+    align-self: center;
+    background-color: bisque;
+    height: 100px;
+}
+
+/* Exemplo de align-self:flex-star e align-self: flex end*/
+.ex6 {
+  display: flex;
+    height:200px;
+    gap: 30px;
+  background-color: orchid;
+}
+
+.ex6 div {
+  width: 100px;
+  background-color: rosybrown;
+}
+
+.ex6 #item2{
+    align-self: flex-start;
+    background-color: bisque;
+    height: 100px;
+}
+.ex6 #item3{
+    align-self: center;
+    background-color: bisque;
+    height: 100px;
+}
+.ex6 #item4{
+    align-self: flex-end;
+    background-color: bisque;
+    height: 100px;
+}
