@@ -1,0 +1,93 @@
+body {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+/*Exemplo de justify-content: center */
+.ex1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+/*Exemplo de justify-content: flex-start */
+.ex2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+/*Exemplo de justify-content: flex-end */
+.ex3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+/*Exemplo de justify-content: space-around */
+.ex4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+/*Exemplo de justify-content: space-between */
+.ex5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+/*Exemplo de justify-content: space-evenly */
+.ex6 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgoldenrodyellow;
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgreen;
+}
