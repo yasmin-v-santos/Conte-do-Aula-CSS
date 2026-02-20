@@ -1,6 +1,6 @@
 body {
     background-color: oklch(lightness chroma hue);
-    color: #fff;
+    color: black;
 }
 
 /*Exemplos de align-items: center */
