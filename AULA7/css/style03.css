@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    color: black;
+    background-color: navajowhite;
+}
+
+/*Exemplo de grid-column-start e grid-column-end */
+.ex1 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    background-color: fuchsia;
+    gap:10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex1 div {
+    height: 100px;
+    background-color: indigo;
+    text-align: center;
+    align-content: center;
+}
+
+.itm1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Exemplo de grid-rown-start e grid-rown-end */
+.ex2 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows:  repeat(3, 100px);
+    background-color: fuchsia;
+    gap:0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex2 div {
+    background-color: indigo;
+    text-align: center;
+    align-content: center;
+}
+
+#itm1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*Exemplo de grid-rown-start, grid-rown-end, grid-column-start e grid-column-end */
+.ex3 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows:  repeat(3, 100px);
+    background-color: fuchsia;
+    gap:0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex3 div {
+    background-color: indigo;
+    text-align: center;
+    align-content: center;
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

@@ -1,0 +1,103 @@
+body {
+    background-color: darkmagenta;
+    color: #fff
+}
+
+/*Exemplo de justify-content: space-evenly*/
+.ex1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    background-color: brown;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+}
+
+/*Exemplo de justify-content: space-around*/
+.ex2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    background-color: brown;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+}
+
+/*Exemplo de justify-content: space-between*/
+.ex3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+}
+
+/*Exemplo de justify-content:center*/
+.ex4 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    background-color: brown;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+}
+
+/*Exemplo de justify-content:start*/
+.ex5 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: start;
+    background-color: brown;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+}
+
+/*Exemplo de justify-content:end*/
+.ex6 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content: end;
+    background-color: brown;
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+}
